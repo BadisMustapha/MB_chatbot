@@ -262,7 +262,7 @@ class _ChatbotPageState extends State<ChatbotPage> {
                           });
 
                           var body = jsonEncode({
-                            "model": "gpt-4o",
+                            "model": "gpt-4.1",
                             "messages": [
                               {
                                 "role": "user",
@@ -300,7 +300,7 @@ class _ChatbotPageState extends State<ChatbotPage> {
                           messages.add({"role": "user", "content": question});
 
                           var body = jsonEncode({
-                            "model": "gpt-4o",
+                            "model": "gpt-4.1",
                             "messages": messages.map((msg) => {
                                   "role": msg['role'],
                                   "content": msg['content']

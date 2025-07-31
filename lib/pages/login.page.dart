@@ -28,7 +28,7 @@ class LoginPage extends StatelessWidget {
                 padding: const EdgeInsets.all(8.0),
                 child: Column(
                   children: [
-                    Image(image: AssetImage("images/sbr_chatbot_logo.png"),width: 200,),
+                    Image(image: AssetImage("images/logo.png"),width: 200,),
                     SizedBox(height: 10,),
                     TextFormField(
                       controller: usernameController,
